@@ -1,0 +1,106 @@
+
+
+.redmeForm {
+margin: 0;
+padding: 0;
+position: relative;
+padding: 1px 0;
+
+}
+
+.redmeForm fieldset {
+border: none;
+margin: 0;
+padding: 0;
+margin: 0 0 7px 0;
+padding: 0 0 10px 0;
+border-bottom: 1px solid #EFEFEF;
+border-image: initial;
+width:100%;
+}
+
+.redmeForm fieldset legend {
+color: black;
+padding:5px;
+margin: 5px;
+font: bold small-caps 100%/100% "lucida grande", "lucida sans unicode", "trebuchet ms", arial, verdana, sans-serif;
+letter-spacing: .2em;
+color: #93B5BE;
+font-size:16px;
+
+}
+.ctrlHolder {
+overflow: hidden;
+margin: 0;
+padding: 0;
+clear: both;
+background: #F9F9F9;
+margin: 0;
+padding: 7px 4px;
+}
+
+.inlineLabels label, .inlineLabels .label {
+float: left;
+margin: .3em 0 0 0;
+padding: 0;
+line-height: 100%;
+width: 30%;
+font-weight: bold;
+}
+
+label em, .label em {
+display: block;
+position: absolute;
+left: 28%;
+font-style: normal;
+font-weight: bold;
+font-size:18px;
+}
+
+.inlineLabels label, .inlineLabels .label {
+float: left;
+margin: .3em 0 0 0;
+padding: 0;
+line-height: 100%;
+width: 30%;
+font-weight: bold;
+}
+.inlineLabels .textInput, .inlineLabels .fileUpload {
+float: left;
+width: 65%;
+border: 2px solid #DFDFDF;
+border-image: initial;
+}
+#shortdesc {
+height: 5em;
+}
+
+.inlineLabels textarea {
+float: left;
+width: 65%;
+border: 2px solid #DFDFDF;
+height: 10em;
+background: white;
+padding: 0;
+border-image: initial;
+}
+
+.inlineLabels .formHint {
+clear: both;
+color: #999;
+margin: .5em 0 0 30%;
+padding: 3px 0;
+font-size: 100%;
+width: 60%;
+}
+.buttonHolder {
+overflow: hidden;
+clear: both;
+background: #F9F9F9;
+border: 1px solid #CCC;
+border-width: 1px 0;
+margin: 10px 0 0 0;
+padding: 10px;
+text-align: left;
+border-image: initial;
+}
